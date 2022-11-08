@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Taekwondo Score Board</title>
+  </head>
+  <body>
+    <div class="t-container">
+      <header>
+        <h1>Taekwondo Score Board</h1>
+      </header>
+      <section>
+        <div class="conatiner">
+          <div class="left">
+            <h3 class="left-b">Blue</h3>
+            <input type="text" name="name" id="atNameR" />
+            <p id="bName" class="name"></p>
+            <div id="blue-score">
+              <div class="hard-core" id="score-blue">0</div>
+            </div>
+            <div class="btn">
+              <button id="one-b" onclick="addBlueOne()">+1</button>
+              <button id="two-b" onclick="addBlueTwo()">+2</button>
+              <button id="three-b" onclick="addBlueThree()">+3</button>
+            </div>
+          </div>
+          <div class="left">
+            <h3 class="left-r">Red</h3>
+            <input type="text" name="name" id="atNameR" />
+            <p id="rname" class="name"></p>
+            <div class="score">
+              <div id="red-score" class="hard-core">0</div>
+            </div>
+            <div class="btn">
+              <button id="one-r" onclick="addRedOne()">+1</button>
+              <button id="two-r" onclick="addRedTwo()">+2</button>
+              <button id="three-r" onclick="addRedThree()">+3</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="application/javascript" src="index.js"> 
+    
+    </script>
+  </body>
+</html>
